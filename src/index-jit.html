@@ -7,36 +7,29 @@
   <meta name="description" content="Freelance Android, iOS, website and full stack developer for enterprise companies and small business.">
   <meta name="keywords" content="Android,iOS,Website,Angular,Full stack,Android development,Freelancer,Coder,Developer,
 iOS development,Website development,Angular development,Swift developer,contract coder,project">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" async>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" async>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous" async>
-  <!-- <link rel="stylesheet" href="styles.css"> -->
-  <style>
-    .init-loading {
-      height: 100%;
-      width: 100%;
-      background-color: black;
-      color: white;
-      text-align: center;
-      padding-top: 20%;
-    }
+  <link rel="stylesheet" href="styles.css">
+  <!-- Polyfills -->
+  <script src="node_modules/core-js/client/shim.min.js"></script>
 
-    body,
-    html {
-      height: 100%;
-      min-height: 100%;
-      width: 100%;
-    }
-  </style>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+  <script src="systemjs.config.js"></script>
+  <script>
+    System.import('main-jit.js').catch(function (err) { console.error(err); });
+  </script>
 </head>
 
 <body>
   <app-root>
-    <div class='init-loading'>
+    <div class='init-loading '>
       <img src='favicon.ico'>
       <p class="large">Testing your patience</p>
     </div>

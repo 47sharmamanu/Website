@@ -6,12 +6,12 @@ import { environment } from './environments/environment';
 
 console.log('Running JIT compiled');
 if (environment.production) {
-    enableProdMode();
+  enableProdMode();
 }
 
 if (!/localhost/.test(document.location.host)) {
-    enableProdMode();
+  enableProdMode();
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
-    .catch(err => console.log(err));
+  .catch(err => console.log(err));

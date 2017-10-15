@@ -1,0 +1,32 @@
+<div id="projects" class="container-fuild">
+    <div class='col'>
+        <h3>MY LATEST PROJECT</h3>
+        <hr>
+        <br>
+    </div>
+
+    <div>
+        <div class="row project">
+            <div *ngFor="let project of projects; let i=index" class="slide-in-left col-lg-4 col-md-6">
+                <div class='card'>
+                    <br>
+                    <h4 class='left-right-padding'>{{project.title}}</h4>
+                    <p class='left-right-padding'>{{project.when}}</p>
+                    <img class="img-responsive" src='{{project.imageUrl}}'>
+                    <p class='left-right-padding'>{{project.description}}</p>
+                    <div class="left-right-padding row">
+                        <div *ngFor="let tech of project.teckStack" class="tech-used extra-small">{{tech}}</div>
+                    </div>
+                    <br>
+                    <div class='row'>
+                        <!-- <a href='javascript:void(0);' class='col-6 full-button small' style='border-right:1px solid grey;background-color: rgba(0,0,0,0.9);'>Details</a> -->
+                        <a href='{{project.link}}' class='full-button small' style='background-color: rgba(0,0,0,0.9);'>Go To Project</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+        </div>
+
+    </div>
+</div>

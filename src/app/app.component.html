@@ -1,20 +1,43 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav();">&times;</a>
+  <a href="/" onclick="closeNav();">HOME</a>
+  <a routerLink="/projects" routerLinkActive="active" onclick="closeNav();  jump1();">PORTFOLIO</a>
+  <a routerLink="/services" routerLinkActive="active" onclick="closeNav();  jump1();">SERVICES</a>
+  <a routerLink="/about-me" routerLinkActive="active" onclick="closeNav();  jump1();">ABOUT</a>
+  <a routerLink="/contact-me" routerLinkActive="active" onclick="closeNav(); jump1();">CONTACT</a>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<main id="main">
+  <div id="navbar">
+    <div class="container-fuild">
+      <div class='col'>
+        <div class="logo">
+          <a href="/" class="nav-neutral-link">
+            <div class='row'>
+              <div class='icon'><img class='img-responsive' src='favicon.ico'></div>
+              <div>
+                <h1 class="no-margin large">MANU SHARMA</h1>
+                <h2 class="no-padding no-margin small">ANDROID | iOS | WEBSITES</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="small-screen-menu">
+          <a class='hamburger nav-neutral-link no-padding' onclick="openNav()"></a>
+        </div>
+        <div class="big-screen-menu">
+          <a class="extra-small" href="/">HOME</a>
+          <a class="extra-small" routerLink="/projects" routerLinkActive="active" onclick='jump1()'>PORTFOLIO</a>
+          <a class="extra-small" routerLink="/services" routerLinkActive="active" onclick='jump1()'>SERVICES</a>
+          <a class="extra-small" routerLink="/about-me" routerLinkActive="active" onclick='jump1()'>ABOUT</a>
+          <a class="extra-small" routerLink="/contact-me" routerLinkActive="active" onclick='jump1()'>CONTACT</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <cover style="background-color:black;" *ngIf='appService.shouldShowCover'></cover>
+  <div id='scroll-target-div'></div>
+  <router-outlet></router-outlet>
+
+  <footer-component></footer-component>
+</main>
