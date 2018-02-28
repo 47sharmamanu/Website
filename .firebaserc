@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "manu-3bc48"
+    "default": "manu-3bc48",
+    "production": "manu-sharma",
+    "beta": "manu-sharma-beta"
   }
 }

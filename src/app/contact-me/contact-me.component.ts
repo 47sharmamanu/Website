@@ -87,7 +87,7 @@ export class ContactMeComponent {
                 return;
             }
         }
-        let subject = "Important " + this.subject
+        let subject = "Website: " + this.subject
 
         if (!this.message) {
             //message is null
@@ -107,6 +107,7 @@ export class ContactMeComponent {
         if (this.subject && this.subject.length > 0) {
             extensionString = extensionString + '&subject=' + subject;
         }
+        this.mailSentStatus = 'SENDING';
         //make web request
         this.http.get('https://script.google.com/a/anvayaanalytics.com/macros/s/AKfycbwabWW8eGG99It1lSvpD9t1dSUcpKBmxsfRB6yQGC4PoJJlwrs/exec' + extensionString).subscribe((data: MailResponse) => {
             if (data.code == 2000) {

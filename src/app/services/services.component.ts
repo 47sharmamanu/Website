@@ -14,51 +14,51 @@ export class ServicesComponent {
 
     services = [{
         title: 'IDEAS',
-        description: "I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_ideas.jpg?alt=media&token=a7c68ba8-8e57-4b95-b70e-598b6142f7f1',
-        actionString: 'I need to discuss an idea',
+        description: "Major in Idea nurturing and refining using technology and design to make a wow experience with reliable service, which stands out in the cluster of competitors.",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz_ideas.jpg?alt=media&token=f5227392-60a9-46d1-8b6b-936d19344856',
+        actionString: 'Need to discuss an idea?',
         pricing: '₹1500/HR'
     },
     {
         title: 'UX/UI',
-        description: "I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_ux-ui.jpg?alt=media&token=d76d3c57-a73e-4228-a534-847afd3f227b',
-        actionString: 'I want UX/UI services',
+        description: "You see the beauty, you urge for more and thats where UI/UX comes in the frame to attract audience to adopt a new thing. Come, let’s make the world beautiful and easy.",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz_ux-ui.jpg?alt=media&token=7811a1e8-19be-4da7-bbe3-f8c30642c58f',
+        actionString: 'Want UX/UI services?',
         pricing: '₹1500/HR'
     },
     {
         title: 'ANDROID DEVELOPMENT',
-        description: "I design Android apps with clean, usable and intuitive interfaces while meeting the requirements. I create  apps that fit into the Android ecosystem by following Google’s material design guidelines.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_android-dev.jpg?alt=media&token=cb9863b0-7dbf-4693-bec9-150edd5d2c6f',
-        actionString: 'I want an Android app',
+        description: "Capturing 87.5% of smartphone market share, Android is largest smartphone application ecosystem. Join and go global with your material design interface and high performance packed android application.",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz_android-dev.jpg?alt=media&token=806613d0-b563-4819-99db-a1a62757bc8f',
+        actionString: 'Want an Android app?',
         pricing: '₹1500/HR'
     },
     {
         title: 'iOS DEVELOPMENT',
-        description: "I use the code of Swift to develop a fully functional native application, while complying to all the requirements. The interface would be creative and easily usable. App will be ready to launch when completed.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_ios-development.jpg?alt=media&token=835e695e-0fa2-4f09-995e-37300628cc0b',
-        actionString: 'I want an iOS app',
+        description: "Need to target niche class of consumers using iPhones, iPads or other apple products? Get your professional yet beautifully developed iOS app and make a footprint in Apple's app store.",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz-ios-development.jpg?alt=media&token=e0438c4f-b57e-4a9d-bb4a-5cfb0d56d281',
+        actionString: 'Want an iOS app?',
         pricing: '₹1500/HR'
     },
     {
         title: 'MOBILE APPLICATION DESIGNING',
-        description: "I understand that the perfect user interface should look good and work even better. Using the design guidelines of Android and iOS, I ensure your user experience goes hand-in-hand with the interface.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_mobile-app-design.jpg?alt=media&token=a66a3017-c3b7-42c0-810d-06a6fd31d8ed',
-        actionString: 'I need mobile designs',
+        description: "A consumer centric business without a Mobile app? Too bad. Get your intuitive yet beautifully crafted mobile app designs now.",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz_mobile-app-design.jpg?alt=media&token=135c4096-90be-41b1-b41b-6680cc24fdd3',
+        actionString: 'Need mobile app designs?',
         pricing: '₹1500/HR'
     },
     {
         title: 'RESPONSIVE WEB DESIGN',
-        description: "I develop mobile-first responsive websites using Bootstrap and Angular 4 frameworks, which makes it faster by 70% of the traditional website with in-built security.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_responsive-web-design.png?alt=media&token=dbe76c8d-3e01-4860-a03c-6fe951d89113',
-        actionString: 'I need a website design',
+        description: "Website design for mobile is not optional. Design & create a seemless and fast browsing experience for people on there personnel device(s).",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz_responsive-web-design.png?alt=media&token=e9bacf2a-e27e-456a-933d-6fede760062f',
+        actionString: 'Need website designs?',
         pricing: '₹1500/HR'
     },
     {
         title: 'WEBSITE DEVELOPMENT',
-        description: "I develop mobile-first responsive websites using Bootstrap and Angular 4 frameworks, which makes it faster by 70% of the traditional website with in-built security.",
-        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-3bc48.appspot.com/o/services-related%2Frsz_web-development.jpg?alt=media&token=6bd7386a-dbe8-4017-b53c-8c523b445194',
-        actionString: 'I want an Website',
+        description: "Developing visually intuitive websites for mobile to desktop screens. They are reliablly fast and secure and get you the leverage to give best user experience to your consumer.",
+        icon: 'https://firebasestorage.googleapis.com/v0/b/manu-sharma.appspot.com/o/services-related%2Frsz_web-development.jpg?alt=media&token=01f1324f-a063-41a7-9a70-002f83951dc9',
+        actionString: 'Want a Website?',
         pricing: '₹1500/HR'
     },
         // {
